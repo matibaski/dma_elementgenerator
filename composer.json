@@ -28,5 +28,8 @@
                 "src/dma_elementgenerator": "system/modules/dma_elementgenerator"
             }
         }
+    },
+    "branch-alias": {
+        "dev-composer": "1.0.1-dev"
     }
 }
