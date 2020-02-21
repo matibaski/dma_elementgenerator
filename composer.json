@@ -1,0 +1,32 @@
+{
+    "name": "matibaski/dma_elementgenerator",
+    "description": "Erlaubt das Erstellen von eigenen Contentelement und Modulen",
+    "keywords": ["elements","contentelement","modules","layout","content","contao"],
+    "type": "contao-module",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Matija Baskarad",
+            "email": "info@matibaski.ch",
+            "homepage": "https://matibaski.ch",
+        },
+    ],
+    "support": {
+        "email": "info@matibaski.ch",
+        "issues": "https://github.com/matibaski/dma_elementgenerator/issues",
+        "source": "https://github.com/matibaski/dma_elementgenerator"
+    },
+    "replace": {
+        "contao-legacy/dma_elementgenerator": "*"
+    },
+    "require": {
+        "php": ">=5.3.4",
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "src/dma_elementgenerator": "system/modules/dma_elementgenerator"
+            }
+        }
+    }
+}
