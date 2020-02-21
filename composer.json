@@ -20,7 +20,8 @@
         "contao-legacy/dma_elementgenerator": "*"
     },
     "require": {
-        "php": ">=5.3.4"
+        "php": ">=5.3.4",
+        "composer/installers": "^1.8"
     },
     "extra": {
         "contao": {
