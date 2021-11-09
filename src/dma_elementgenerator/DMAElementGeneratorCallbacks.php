@@ -261,7 +261,7 @@ class DMAElementGeneratorCallbacks extends Backend
 				else
 				{
 					//multiple checkbox-menue
-					if ($objField->type=='checkbox' && sizeof($this->prepareOptions($objField))>1)
+					if ($objField->type=='checkbox' && $this->prepareOptions($objField) !== null && sizeof($this->prepareOptions($objField))>1)
 					{
 						$objField->type='checkboxWizard';
 					}
